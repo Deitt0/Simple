@@ -1,0 +1,209 @@
+body {
+    color: white;
+    background-color: #161616;
+    font-family: Arial;
+    font-size: 13px;
+}
+hr { 
+    border-top: 1px solid red;
+    height: 5px;
+}
+img{
+    width: 100%;
+}
+.titulo{
+
+}
+.primero{
+    background-color: black;
+    padding-top: 10px;
+}
+#buscar{
+    float: right;
+    border-radius: 5px;
+    margin-top: 30px
+}
+.header{
+    background-color: #161616;
+}
+.contenedor {
+    width: 700px;
+    margin: auto;
+}
+.menu {
+    padding: 0;
+    padding-inline-start: 0px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    font-family: Arial;
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color: #fff;
+    width: 80px;
+    text-align: center;
+}
+
+.menu li a:hover, .active {
+    background-color: #608510;
+    margin-top: -2;
+    padding-bottom: 12px;
+    border-radius: 2px;
+}
+.desactive{
+    background-color: black
+}
+
+.row {
+    text-align: center
+}
+
+.col1-4 {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding:8px;
+}
+
+.col1-4 ul{
+    padding-left: 15px;
+}
+.col3-4 {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 8px;
+}
+
+.col2-3{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 8px;
+}
+.col1-3{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 8px;
+}
+.footer {
+    background-color: black;
+}
+
+.separador{
+    background-color: #608510;
+    margin-top: 17;
+    padding: 2;
+}
+.col1-4 p{
+    color: grey;
+}
+.col1-4 ul{
+    color: grey;
+}
+.col-ico{
+    width: 25px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 1px
+}
+.col1-2{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 8px;
+}
+.color-link{
+    color: #608510;
+}
+.color-text{
+    color: gray;
+}
+.button{
+    background-color: #608510;
+    border-radius: 3px;
+    color: white;
+    border-style: none;
+    height: 35px;
+    margin-right: 10px;
+}
+.circulo{
+    background-color: #608510;
+    border-radius: 50px;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+.circulo span{
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+}
+.circulo-icon{
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding-top: 10px;
+}
+.cita{
+    float: right;
+}
+.img-volando{
+    float: left; width: 60%;
+    padding-right: 8px;
+}
+.input-50{
+    width: 50%;
+}
+.col-label{
+    width: 70px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 1px
+}
+.col-input{
+    width: 90px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+    padding: 1px
+}
+
+.col-label p{
+    margin: 5px;
+}
+.col-input p{
+    margin: 5px;
+}
+
+.col-input input{
+    width: 250px;
+}
+.col-input textarea{
+    width: 600px;
+    height: 150px;
+}
+.left{
+    float: right;
+}
+.col-input input{
+    border-radius: 5px;
+}
